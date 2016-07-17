@@ -1,0 +1,2 @@
+# docker-bfgminer
+Dockerized BFGMiner
