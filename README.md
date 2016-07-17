@@ -1,3 +1,4 @@
+*EXPERIMENTAL PACKAGE*
 
 # Supported tags and respective `Dockerfile` links
 
@@ -18,7 +19,9 @@ Simplest is to join a pool, e.g. [Multipool](https://www.multipool.us/dashboard/
 
     $ docker run --rm -it wernight/bfgminer --scrypt -o stratum+tcp://eu.multipool.us:3334 -u Wernight.1 -p x
 
+Note: You should be able to [enable nVidia CUDA support via `--device` flags](https://stackoverflow.com/questions/25185405/using-gpu-from-a-docker-container)
 
-# Issues
+
+# User Feedback
 
 Suggestions and pull requests are welcome on our [GitHub issue tracker](https://github.com/wernight/docker-bfgminer/issues).
